@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Latihan CSS</title> 
+        <style type="text/css">
+        #btn{
+            background-color: #43009b;
+            color: #fff;
+            padding: 10px;
+            margini: 10px;
+            border-radius: 5px;
+            width: 50px;
+            height: 20 px;
+        }
+        #btn:hover{
+            background-color: #a400e0;
+            cursor: pointer;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>weplay</h1>
+        <div style="fort-size:32px;color:#00869b;">Daftar Sekarang</div>
+        <from>
+          Email/No Telepon<br/>
+            <select name="Email/No Telepon">
+                <option value="Pilih"></option>
+                <option value="Email">Email</option>
+                <option value="No Telepon">No Telepon</option>
+                <input type="text"/><br/>
+            Nama<br/>
+            <input type="text"/><br/>
+            Sandi<br/>
+            <input type="text"/><br/>
+
+            </select>
+            <br/>
+        </from>
+        <div id="btn">
+            Daftar
+        </div>
+    </body>
+</html>
